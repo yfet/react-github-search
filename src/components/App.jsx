@@ -10,7 +10,7 @@ class App extends Component {
             username: 'yfet',
             userData: [],
             userRepos: [],
-            perPage: 5
+            perPage: 20
         }
     }
 
