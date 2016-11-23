@@ -7,7 +7,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            username: 'yfet',
+            username: 'your username',
             userData: [],
             userRepos: [],
             perPage: 20
@@ -69,8 +69,8 @@ App.propTypes = {
     clientSecret: React.PropTypes.string,
 };
 App.defaultProps = {
-    clientId: '67e454803d9181504e52',
-    clientSecret: 'e25c29e4520a63a973dbddf06361051e62ffd016'
+    clientId: 'your client Id',
+    clientSecret: 'your client Secret'
 };
 
 export default App
